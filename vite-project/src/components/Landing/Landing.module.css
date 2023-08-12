@@ -1,22 +1,24 @@
-/* .landing{
-    font-family: 'Righteous', cursive;
-font-family: 'Ysabeau SC', sans-serif;
+.landing {
+  font-family: 'Righteous', cursive;
+  font-family: 'Ysabeau SC', sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-.btn{
-    display: flex;
-    justify-content: flex-end;
-} */
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-@media (max-width: 768px) {
-    .landing {
-      font-size: 18px;
-      font-family: 'Righteous', cursive;
-      font-family: 'Ysabeau SC', sans-serif;
-    }
-  
-    .btn {
-      justify-content: center;
-    }
+@media screen and (max-width: 480px) {
+  .landing {
+    font-size: 16px;
   }
-  
+}
+
+@media screen and (max-width: 320px) {
+  .landing {
+    font-size: 14px;
+  }
+}

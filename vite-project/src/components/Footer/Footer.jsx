@@ -49,7 +49,7 @@ export default function Footer() {
         background="linear-gradient(-8deg, rgba(0,0,0,0.2), rgba(0,0,0,0))"
         zIndex={-1}
       />
-      <Text fontSize="xl" fontWeight="bold" mb={2} zIndex={1} position="relative">
+      <Text fontSize="xl" fontWeight="bold" mt={40} mb={2} zIndex={1} position="relative">
         Contacto
       </Text>
       <Container
