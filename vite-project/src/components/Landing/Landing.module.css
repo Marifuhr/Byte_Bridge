@@ -1,4 +1,4 @@
-.landing{
+/* .landing{
     font-family: 'Righteous', cursive;
 font-family: 'Ysabeau SC', sans-serif;
 }
@@ -6,4 +6,17 @@ font-family: 'Ysabeau SC', sans-serif;
 .btn{
     display: flex;
     justify-content: flex-end;
-}
+} */
+
+@media (max-width: 768px) {
+    .landing {
+      font-size: 18px;
+      font-family: 'Righteous', cursive;
+      font-family: 'Ysabeau SC', sans-serif;
+    }
+  
+    .btn {
+      justify-content: center;
+    }
+  }
+  

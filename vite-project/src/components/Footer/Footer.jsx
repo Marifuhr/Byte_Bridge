@@ -7,8 +7,8 @@ import {
   Text,
   useColorModeValue,
   VisuallyHidden,
-} from '@chakra-ui/react'
-import { FaInstagram, FaTwitter, FaWhatsapp, FaEnvelope } from 'react-icons/fa'
+} from '@chakra-ui/react';
+import { FaInstagram, FaTwitter, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 const SocialButton = ({ children, label, href }) => {
   return (
@@ -32,15 +32,26 @@ const SocialButton = ({ children, label, href }) => {
       <VisuallyHidden>{label}</VisuallyHidden>
       {children}
     </chakra.button>
-  )
-}
+  );
+};
 
-export default function SmallCentered() {
+export default function Footer() {
   return (
-    <Box>
-         <Text fontSize="xl" fontWeight="bold" mb={2}>
-          Contacto
-        </Text>
+    <Box position="relative" overflow="hidden">
+      <Box
+        position="absolute"
+        top={0}
+        left={0}
+        right={0}
+        bottom={0}
+        transform="skewY(-8deg)"
+        transformOrigin="top right"
+        background="linear-gradient(-8deg, rgba(0,0,0,0.2), rgba(0,0,0,0))"
+        zIndex={-1}
+      />
+      <Text fontSize="xl" fontWeight="bold" mb={2} zIndex={1} position="relative">
+        Contacto
+      </Text>
       <Container
         as={Stack}
         maxW={'6xl'}
@@ -50,18 +61,57 @@ export default function SmallCentered() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}
       >
-        <Stack direction={'center'} spacing={490} justify="center">
-          <SocialButton label={'Whatsapp'} href={'https://web.whatsapp.com/+543492600815'}>
-            <FaWhatsapp />
-          </SocialButton>
-          <SocialButton label={'Correo'} href={'mailto:bytebridge@hotmail.com'}>
-            <FaEnvelope />
-          </SocialButton>
-          <SocialButton label={'Instagram'} href={'https://www.instagram.com/bytebridge.ok'}>
-            <FaInstagram />
-          </SocialButton>
+        <Stack direction={'center'} spacing={4} justify="center">
+        <Box position="relative" zIndex={1}>
+            <SocialButton label={'Whatsapp'} href={'https://web.whatsapp.com/+543492600815'}>
+              <FaWhatsapp />
+            </SocialButton>
+            <Box
+              position="absolute"
+              top={0}
+              left={0}
+              right={0}
+              bottom={0}
+              transform="skewY(-8deg)"
+              transformOrigin="top right"
+              background="linear-gradient(-8deg, rgba(0,0,0,0.2), rgba(0,0,0,0))"
+              zIndex={-1}
+            />
+          </Box>
+          <Box position="relative" zIndex={1}>
+            <SocialButton label={'Correo'} href={'mailto:bytebridge@hotmail.com'}>
+              <FaEnvelope />
+            </SocialButton>
+            <Box
+              position="absolute"
+              top={0}
+              left={0}
+              right={0}
+              bottom={0}
+              transform="skewY(-8deg)"
+              transformOrigin="top right"
+              background="linear-gradient(-8deg, rgba(0,0,0,0.2), rgba(0,0,0,0))"
+              zIndex={-1}
+            />
+          </Box>
+          <Box position="relative" zIndex={1}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com/bytebridge.ok'}>
+              <FaInstagram />
+            </SocialButton>
+            <Box
+              position="absolute"
+              top={0}
+              left={0}
+              right={0}
+              bottom={0}
+              transform="skewY(-8deg)"
+              transformOrigin="top right"
+              background="linear-gradient(-8deg, rgba(0,0,0,0.2), rgba(0,0,0,0))"
+              zIndex={-1}
+            />
+          </Box>
         </Stack>
       </Container>
     </Box>
-  )
+  );
 }
