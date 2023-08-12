@@ -1,0 +1,9 @@
+.landing{
+    font-family: 'Righteous', cursive;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
