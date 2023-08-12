@@ -1,0 +1,12 @@
+.container {
+    padding-top: 100px; /* Ajusta la distancia entre el contenedor y la barra de navegación según tus necesidades */
+  }
+  
+  .title {
+    margin-top: 20px; /* Ajusta la distancia entre el título y el contenedor según tus necesidades */
+  }
+  
+  .textContainer {
+    margin-top: 30px; /* Ajusta la distancia entre el contenedor de texto y el título según tus necesidades */
+  }
+  
