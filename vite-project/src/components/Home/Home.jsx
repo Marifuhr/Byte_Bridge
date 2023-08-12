@@ -10,11 +10,15 @@ export default function Home() {
       <NavBar />
       <>
       < div className={styles.container}>
-        <h1 className={styles.title}>Nuestra Historia</h1>
+        {/* <h1 className={styles.title}>Nuestra Historia</h1> */}
         <div className={styles.textContainer}>
           <h2>
-            Nuestro entusiasta equipo de desarrolladores web recién recibidos está ingresando con fuerza en el mundo de la tecnología, listos para ofrecer soluciones digitales a medida para pequeñas y medianas empresas. Con un enfoque en el diseño y desarrollo de páginas web atractivas y funcionales, así como en la implementación de plataformas de comercio electrónico y la gestión de redes sociales, nuestro equipo está comprometido en brindar servicios de calidad que impulsen el crecimiento y la visibilidad en línea de nuestros clientes. Con una combinación de creatividad, conocimiento técnico y pasión por la innovación, nos esforzamos por crear experiencias digitales únicas y efectivas que se alineen con las necesidades y objetivos de cada empresa con la que trabajamos
+            Nuestro entusiasta equipo de desarrolladores web recién recibidos está ingresando con fuerza en el mundo de la tecnología, listos para ofrecer soluciones digitales a medida para pequeñas y medianas empresas. Con un enfoque en el diseño y desarrollo de páginas web atractivas y funcionales, así como en la implementación de plataformas de comercio electrónico y la gestión de redes sociales, nuestro equipo está comprometido en brindar servicios de calidad que impulsen el crecimiento y la visibilidad en línea de nuestros clientes. Con una combinación de creatividad, conocimiento técnico y pasión por la innovación, nos esforzamos por crear experiencias digitales únicas y efectivas que se alineen con las necesidades y objetivos de cada empresa con la que trabajamos.
+            
           </h2>
+          <Link to="/servicios" className={styles.button}>
+            Ver servicios
+          </Link>
         </div>
       </div>
         <Footer />

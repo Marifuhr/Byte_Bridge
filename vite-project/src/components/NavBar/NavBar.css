@@ -2,11 +2,12 @@
     width: 100px;
     height: 100px; /* Ajusta el tamaño del logo según tus necesidades */
 float: left;
+box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
   
   /* Estilos adicionales para el contenedor de la barra de navegación (opcional) */
   .navbar {
-    padding: 10px;
+    padding: 3px;
      /* Agrega espacio alrededor del logo (opcional) */
   }
   .navbar-container {
@@ -14,7 +15,9 @@ float: left;
     top: 0; /* Ajusta la distancia desde la parte superior de la página */
     left: 0; /* Ajusta la distancia desde el lado izquierdo de la página (opcional) */
     width: 100%; /* Ajusta el ancho del contenedor */
-    background-color: rgb(241, 191, 126);
+    background-color: rgb(202, 192, 182);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Agrega sombra al contenedor */
   }
   
   /* Estilos adicionales para la barra de navegación (opcional) */

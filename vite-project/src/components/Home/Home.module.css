@@ -1,5 +1,6 @@
 .container {
-    padding-top: 100px; /* Ajusta la distancia entre el contenedor y la barra de navegación según tus necesidades */
+    padding-top: 100px; 
+/* Ajusta la distancia entre el contenedor y la barra de navegación según tus necesidades */
   }
   
   .title {
@@ -7,6 +8,13 @@
   }
   
   .textContainer {
-    margin-top: 30px; /* Ajusta la distancia entre el contenedor de texto y el título según tus necesidades */
+    margin-top: 60px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 20px;
+    color: rgb(107, 100, 100);
+     
+   
+    
+     /* Ajusta la distancia entre el contenedor de texto y el título según tus necesidades */
   }
   
