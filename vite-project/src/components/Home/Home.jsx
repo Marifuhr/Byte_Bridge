@@ -24,7 +24,7 @@ export default function Home() {
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projectos</h2>
+          <h2 class="section-title dark-blue-text">Proyectos</h2>
 
          
           <div class="row">
